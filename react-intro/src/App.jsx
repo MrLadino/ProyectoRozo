@@ -1,5 +1,7 @@
-import { Example } from './Components/Example/Example'
+import { Logo } from './Components/Logo/Logo'
+import { Home } from './Components/Pages/Home/Home'
 import './App.css'
+
 
 
 
@@ -8,8 +10,7 @@ function App() {
   
   return (
     <>
-    <Example/>
-    <Example title = 'Andres homosexual de mierda' />
+    <Home/>
     </>
   )
 }
