@@ -1,7 +1,7 @@
 import React from 'react'
 import './Tittle.css'
 
-const Tittle = () => {
+export const Tittle = () => {
   return (
    <h1>
        Black Dragon
@@ -9,4 +9,3 @@ const Tittle = () => {
   )
 }
 
-export default Tittle
